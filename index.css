@@ -46,6 +46,12 @@ a:hover{
     opacity: 0.5;
     transition:.6s ease all;
 }
+@media screen and (max-width:700px) {
+
+    a{
+        font-size: 15px;
+    }
+}
 .cover{
     display: flex;
     flex-wrap: wrap;
@@ -154,6 +160,10 @@ li{
     margin: 10px;
     padding: 5px;
     width: 1rem;
+}
+.list{
+    border-right: 1px solid black;
+    margin-right: 2px;
 }
 
 
